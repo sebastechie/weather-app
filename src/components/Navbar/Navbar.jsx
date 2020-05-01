@@ -7,9 +7,9 @@ export default class Navbar extends Component {
     render() {
         return (
             <section className={styles.navbarContain}>
-                <NavItems route="/cardlist" name="Weather App"/>
-                <NavItems route="/quizpage" name="Single Quiz"/>
-                <NavItems route="/" name="Football Team"/>
+                <NavItems route="/cardlist" name="Weather Cards"/>
+                <NavItems route="/quizpage" name="One Question Quiz"/>
+                <NavItems route="/fto" name="Football Team Organiser"/>
             </section>
         )
     }
