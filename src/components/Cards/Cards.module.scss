@@ -1,0 +1,52 @@
+.cardContain {
+    // border: 2px solid grey;
+    height: 160px;
+    width: 650px;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    // background-image: linear-gradient( to left, #00B6F1, #2FA1F7);
+    background-image: linear-gradient( to left, #43cea2, #185a9d);
+    box-shadow: 5px 5px 20px grey;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.5s;
+    filter: grayscale(80%);
+
+    &:hover {
+        filter: grayscale(0);
+        transition: 0.5s;
+        cursor: none;
+    }
+
+    .left, .right {
+        width: 70%;
+        // border: 2px solid aqua;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-right: 1px solid white;
+
+        .top {
+            div {
+                font-size: 30px;
+            }
+        }
+
+        .top, .mid, .bottom {
+            display: flex;
+            
+            div {
+                margin-right: 30px;
+            }
+        }
+    }
+
+    .right {
+        width: 30%;
+        align-items: center;
+        border: none;
+    }
+}
