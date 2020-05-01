@@ -9,7 +9,7 @@ export default class Navbar extends Component {
             <section className={styles.navbarContain}>
                 <NavItems route="/cardlist" name="Weather App"/>
                 <NavItems route="/quizpage" name="Single Quiz"/>
-                <NavItems route="/quizpage" name="Football Team"/>
+                <NavItems route="/" name="Football Team"/>
             </section>
         )
     }
