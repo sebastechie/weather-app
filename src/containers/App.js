@@ -9,8 +9,9 @@ export default class App extends Component {
   render() {
     return (
       <div className={styles.App}>
-        {/* <Navbar /> */}
-        <CardList />
+        <Navbar />
+        {/* <CardList /> */}
+        <Routes />
       </div>
     );
   }

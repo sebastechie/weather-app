@@ -1,9 +1,10 @@
 .App {
-  // border: 2px solid red;
+  border: 2px solid red;
   height: 100vh;
+  width: 100vw;
   background-image: linear-gradient( to left, #abbaab, #ffffff);
   display: flex;
-  align-items: center;
-  
-  
+  flex-direction: column;
+  align-items: center; 
 }
+
